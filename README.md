@@ -1,6 +1,6 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## Alumno: Danna Albertos 
 ## Actividad \#16 - Matrices doc
 
 ---
@@ -53,7 +53,7 @@ $$
 # OTRO EJERCICIO
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Humberto Ramirez Gruintal
+## Alumno: Danna Albertos 
 ## Actividad \#16 - Matrices doc
 
 ---
