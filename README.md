@@ -1,341 +1,102 @@
 # Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Danna Albertos 
-## Actividad \#16 - Matrices doc
+  ## Materia: Fundamentos de álgebra
+  ## Alumno: Danna Pamela Albertos Sosa
+  ## Actividad \#18 - Documentación de Ejercicios con Git Branches
+  
+  ---
+  # Ejercicio 1: Determinantes 2x2
+  ## Calcula los determinantes
 
----
-### Identificación de matrices
-
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
-
-$$ A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
+  $$ A =
+  \begin{pmatrix}
+  4 & 5 \\
+  -3 & 2 \\
+  \end{pmatrix}
 $$
 
-MUESTRA
-
-Calcula la suma de A y B
-
-$$ A =
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{pmatrix}
+### Determinante de la Matriz A
 $$
+\begin{aligned}
+\det(A) &= (4)(2) - (5)(-3) \\
+        &= 8 - (-15) \\
+        &= 8 + 15 \\
+        &= 23
+\end{aligned}
+$$
+
+
 
 $$ B =
-\begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
-\end{pmatrix}
+  \begin{pmatrix}
+  3 & 5 & 7 \\
+  0 & -3 & 1 \\
+  0 & 0 & 9 \\
+  \end{pmatrix}
+$$
+### Determinante de la Matriz B
+$$
+\begin{aligned}
+\det(B) &= (3)(-3)(9) \\
+        &= -9(9) \\
+        &= -81
+\end{aligned}
 $$
 
-$$ A + B =
-\begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
-\end{pmatrix}
-$$
-
----
-# OTRO EJERCICIO
-...
-# OTRO EJERCICIO
-# Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Danna Albertos 
-## Actividad \#16 - Matrices doc
-
----
-# Identificación de matrices
-## EJERCICIO 1
-### Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
-
-$$ A 
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-### Matriz diagonal todos los valores fuera de la diagonal tienen un valor de 0
-
-$$ B
-\begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5\\
-\end{pmatrix}
-$$
-
-### Matriz cuadrada la columna y filas finales tienen los mismos valores
-
-$$ C
-\begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-### Triangulo superior, ademas todos los elementos de abajo son 0
-
-$$ D
-\begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
-$$
-
-## EJERCICIO 2
-
-Calcula la suma de A y B
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-2 + 5 & -1 + 2  \\
-3 + -1 & 4 + 3 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-7 & 1 \\
-2 & 7 \\
-\end{pmatrix}
-$$
-
-Calcula la resta de 2A y B
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
-$$ 2A  =
-\begin{pmatrix}
-4 & -2 \\
-6 & 8 \\
-\end{pmatrix}
-$$
-
-$$ 2A + B =
-\begin{pmatrix}
-4 - 5 & -2 - 2  \\
-6 - -1 & 8 - 3 \\
-\end{pmatrix}
-$$
-
-$$ 2A + B =
-\begin{pmatrix}
--1 & -4 \\
-7 & 5 \\
-\end{pmatrix}
-$$
-
-Calcula AB
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
-$$ AB =
-\begin{pmatrix}
-(2 * 5 + -1 * -1) (2 * 2 + -1 * 3)  \\
-(3 * 5 + 4 * -1) (3 * 2 + 4 * 3) \\
-\end{pmatrix}
-$$
-
-$$ AB =
-\begin{pmatrix}
-11 & 1 \\
-11 & 18 \\
-\end{pmatrix}
-$$
-
-Calcula BA
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
-$$ BA =
-\begin{pmatrix}
-(5 * 2 + 2 * 3) (5 * -1 + 2 * 4)  \\
-(3 * 5 + 4 * -1) (-1 * -1 + 3 * 4) \\
-\end{pmatrix}
-$$
-
-$$ BA=
-\begin{pmatrix}
-16 & 3 \\
-7 & 13 \\
-\end{pmatrix}
-$$
-
-Transpuesta de A
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ AT =
-\begin{pmatrix}
-2 & 3  \\
--1 & 4  \\
-\end{pmatrix}
-$$
-
----
-# EJERCICIO 3
-
-Muliplicacion de cadena
-
-$$ A =
-\begin{pmatrix}
-1 & 2  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-2 & 0  \\
-1 & 3 \\
-\end{pmatrix}
-$$
 
 $$ C =
+  \begin{pmatrix}
+  8 & 7 & 6 \\
+  15 & 2 & 3 \\
+  2 & 4 & 10 \\
+  \end{pmatrix}
+$$
+
+### Determinante de la Matriz C
+$$
+\begin{aligned}
+\det(C) &= [(8)(2)(10) + (7)(3)(2) + (6)(15)(4)] - [(2)(2)(6) + (4)(3)(8) + (10)(15)(7)] \\
+        &= [160 + 42 + 360] - [24 + 96 + 1050] \\
+        &= 562 - 1170 \\
+        &= -608
+\end{aligned}
+$$
+
+### Determinantes de BC
+Primero resolvemos la matriz BC
+
+$$
+BC =
 \begin{pmatrix}
-1 & 1  \\
-0 & 2 \\
+3 & 5 & 7 \\
+0 & -3 & 1 \\
+0 & 0 & 9
+\end{pmatrix}
+\begin{pmatrix}
+8 & 7 & 6 \\
+15 & 2 & 3 \\
+2 & 4 & 10
+\end{pmatrix}=
+\begin{pmatrix}
+24+75+14 & 21+10+28 & 18+15+70 \\
+0-45+2 & 0-6+4 & 0-9+10 \\
+0+0+18 & 0+0+36 & 0+0+90
+\end{pmatrix}=
+\begin{pmatrix}
+113 & 59 & 103 \\
+-43 & -2 & 1 \\
+18 & 36 & 90
 \end{pmatrix}
 $$
 
-#### parte 1 AB
-$$ AB =
-\begin{pmatrix}
-(1 * 2 + 2 * 1) (1 * 0 + 2 * 3)  \\
-(3 * 2 + 4 * 1) (3 * 0 + 4 * 3) \\
-\end{pmatrix}
+Ahora ya calculamos los determinantes
+
 $$
-
-$$ AB =
-\begin{pmatrix}
-4 & 6 \\
-10 & 12 \\
-\end{pmatrix}
+\begin{aligned}
+\det(BC) &= [(113)(-2)(90) + (59)(1)(18) + (103)(-43)(36)] \\
+         &\quad - [(18)(-2)(103) + (36)(1)(113) + (90)(-43)(59)] \\
+         &= [-20,340 + 1,062 - 159,444] - [-3,708 + 4,068 - 228,330] \\
+         &= [-178,722] - [-227,970] \\
+         &= -178,722 + 227,970 \\
+         &= 49,248
+\end{aligned}
 $$
-
-#### parte 2 AB(C)
-
-$$ (AB)C =
-\begin{pmatrix}
-(4 * 1 + 6 * 0) (4 * 1 + 6 * 2)  \\
-(10 * 1 + 12 * 0) (10 * 0 + 12 * 2) \\
-\end{pmatrix}
-$$
-
-$$ (AB)C =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-## Verificacion de que (AB)C = A(BC)
-
-#### parte 1 BC
-
-$$ BC =
-\begin{pmatrix}
-(2 * 1 + 0 * 0) (2 * 1 + 0 * 2)  \\
-(10 * 1 + 3 * 0) (1 * 1 + 3 * 2) \\
-\end{pmatrix}
-$$
-
-$$ BC =
-\begin{pmatrix}
-2 & 2 \\
-1 & 7 \\
-\end{pmatrix}
-$$
-
-#### parte 2 A(BC)
-
-$$ A(BC) =
-\begin{pmatrix}
-(1 * 2 + 2 * 1) (1 * 2 + 2 * 7)  \\
-(3 * 2 + 4 * 1) (3 * 2 + 4 * 7) \\
-\end{pmatrix}
-$$
-
-$$ A(BC) =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-### Con esta verificacion podemos confirmar que (AB)C  es igual que (AB)C.
----
-
-
-
